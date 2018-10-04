@@ -1,2 +1,13 @@
 {% extends 'base.html' %}
-<h1>Instagram</h1>
+{% block content %} 
+{{ block.super}}
+    <br>
+    <div class="card mb-4 container col-md-5" border='1'>
+        <img class="card-img-top" src="https://images.pexels.com/photos/247478/pexels-photo-247478.jpeg?cs=srgb&dl=dawn-landscape-mountains-247478.jpg&fm=jpg" alt="Card image cap">
+        <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+{% endblock %}
