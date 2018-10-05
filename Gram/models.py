@@ -9,7 +9,7 @@ class Image(models.Model):
     '''
     Image model
     '''
-    image = models.ImageField(upload_to='images/')
+    image = models.ImageField(upload_to='images/',default="https:/www.img.com/referes.png")
     image_name = models.CharField(max_length=30, blank=True)
     image_caption = models.TextField(max_length=100, blank=True)
     user = models.ForeignKey(User, related_name="posted_by", on_delete=models.CASCADE, null=True)

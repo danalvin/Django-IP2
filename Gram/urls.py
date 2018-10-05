@@ -5,7 +5,7 @@ from django.conf.urls.static import static
 
 
 urlpatterns=[
-    url('^$', views.home,name='Instagram')
+    url('^$', views.all_images,name='Instagram')
 ]
 
 if settings.DEBUG:
