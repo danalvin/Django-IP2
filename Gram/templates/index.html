@@ -1,13 +1,34 @@
-{% extends 'base.html' %}
-{% block content %} 
+{%extends 'base.html'%}
+{% load static %}
+{% block content %}
 {{ block.super}}
-    <br>
-    <div class="card mb-4 container col-md-5" border='1'>
-        <img class="card-img-top" src="https://images.pexels.com/photos/247478/pexels-photo-247478.jpeg?cs=srgb&dl=dawn-landscape-mountains-247478.jpg&fm=jpg" alt="Card image cap">
-        <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
+<div class="container-fluid">
+    {% for image_item in images %}
+    
+    <div class="row">
+    <div class="col-md-2">
+
     </div>
+    <div class="col-md-8">
+      <div class="card">
+        <img class="img-responsive" src="{{image_item.image.url}}" alt="image" data-toggle="modal" data-target="#{{image_item.id}}">
+        <div class="card-body">
+            <small class="card_text small-name">{{image_item.image_name}}</small>
+            <br>
+            <small class="card_text small-description">{{image_item.image_caption}}</small>
+            <br>
+            <small class="card_text small-location">{{image_item.image_name}}</small>
+            <br>
+            <small class="card_text small-date">{{image_item.post_date}}</small>
+            <br>
+            <small class="card_text small-date">{{image_item.user}}</small>
+            <br>
+            <small class="card_text small-date">{{image_item.liker}}</small>
+
+        </div>
+      </div>
+    </div>
+
+    {% endfor %}
+</div>
 {% endblock %}

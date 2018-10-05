@@ -57,7 +57,7 @@ ROOT_URLCONF = 'insta.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -122,10 +122,20 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
+MEDIA_URL = '/media/'
 STATIC_URL = '/static/'
+#/static/imagenes/img1.jpg
+
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static"),
+    os.path.join(BASE_DIR, "static_pro", "static"),
+    #'/var/www/static/',
 ]
+
+STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_env", 
+"static_root")
+MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_env", 
+"media_root")
+
 EMAIL_USE_TLS = config('EMAIL_USE_TLS')
 EMAIL_HOST = config('EMAIL_HOST')
 EMAIL_PORT = config('EMAIL_PORT')
