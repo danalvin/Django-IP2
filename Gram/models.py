@@ -12,7 +12,15 @@ class image(models.Model):
     user = models.ForeignKey(User, related_name="posted_by", on_delete=models.CASCADE, null=True)
     liker = models.ForeignKey(User, related_name="liked_by", on_delete=models.CASCADE, null=True)
     post_date = models.DateTimeField(auto_now=True)
-    
+
+    def __str__(self):
+        return self.image_name
+
+    @classmethod
+    def get_all(cls):
+        images = cls.objects.all()
+        return images
+
 class profile(models.Model):
     profile_picture = models.ImageField(upload_to='image/')
     bio = models.TextField(max_length=30, blank=True)
@@ -21,9 +29,4 @@ class profile(models.Model):
     followers = models.ManyToManyField(User, related_name="followed_by", blank=True)
     following = models.ManyToManyField(User, related_name="follows", blank=True)
 
-
-class user(models.Model):
-    username = models.CharField(max_length=50)
-    email = models.CharField(max_length=100)
-    password = models.CharField(max_length=150) 
 
