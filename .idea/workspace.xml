@@ -2,11 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="397e731b-b31d-4fac-95dc-c8b7a354961b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Gram/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/css/Login-Form-Clean-1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/css/Login-Form-Clean.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/fonts/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/fonts/ionicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/fonts/ionicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/fonts/ionicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/fonts/ionicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/fonts/ionicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/img/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/img/home-logo-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/img/home-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/img/homeimg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/img/homeimg2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/img/homeimg3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/img/homeimg4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/img/homeimg5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/img/homeimg6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/img/homeimg7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/img/homewallpaper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/img/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/img/mountains.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/img/pic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/img/pic2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/img/profileicon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gram/assets/js/jquery.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gram/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gram/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gram/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gram/templates/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gram/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gram/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gram/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gram/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,13 +74,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="88" />
+          <entry key="html" value="114" />
           <entry key="py" value="92" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="88" />
+          <entry key="HTML" value="114" />
           <entry key="Python" value="92" />
         </counts>
       </usages-collector>
@@ -56,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/Gram/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -68,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/Gram/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="235">
-              <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+              <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -76,8 +112,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gram/templates/navbar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -98,7 +134,7 @@
         <entry file="file://$PROJECT_DIR$/Gram/forms.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -115,7 +151,7 @@
         <entry file="file://$PROJECT_DIR$/Gram/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -231,7 +267,7 @@
     <frame x="10" y="50" width="1260" height="730" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497979" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497979" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -242,7 +278,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.275" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.275" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Python Console" order="11" />
@@ -293,7 +329,7 @@
     <entry file="file://$PROJECT_DIR$/Gram/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -303,7 +339,7 @@
     <entry file="file://$PROJECT_DIR$/Gram/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
-          <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -313,7 +349,7 @@
     <entry file="file://$PROJECT_DIR$/Gram/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
@@ -333,7 +369,7 @@
     <entry file="file://$PROJECT_DIR$/Gram/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -342,8 +378,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gram/templates/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
