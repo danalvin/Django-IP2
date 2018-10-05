@@ -1,17 +1,42 @@
-from django.shortcuts import render
 from django.contrib.auth.decorators import login_required
-from .models import Image, Comment, Profile
+from django.shortcuts import render
 import datetime as dt
-
+from .models import Image, Comment, Profile
+from .forms import NewImageForm
 
 
 # Create your views here.
-# def home(request):
-#     return render(request, 'index.html')
-#
+
+
+
 def all_images(request):
     date = dt.date.today()
     images = Image.get_all()
-    Comments = Comment.get_comments()
+    comments = Comment.get_comments()
+    return render(request, 'index.html', {"date": date, "images": images, "comments": comments})
 
-    return render(request, 'index.html',locals())
+
+@login_required(login_url='/accounts/login/')
+def my_profile(request,profile_id):
+    date = dt.date.today()
+    profiles = Profile.objects.filter(id = profile_id)
+    return render(request, 'profile.html', locals())
+
+def explore(request):
+    date = dt.date.today()
+    profiles = Profile.get_profiles()
+    return render(request, 'explore.html', {"date": date, "profiles": profiles})
+
+
+def new_image(request):
+    current_user = request.user
+    if request.method == 'POST':
+        form = NewImageForm(request.POST, request.FILES)
+        if form.is_valid():
+            image = form.save(commit=False)
+            image.user = current_user
+            image.save()
+    else:
+        form = NewImageForm()
+    return render(request, 'new_image.html', {"form": form })
+
