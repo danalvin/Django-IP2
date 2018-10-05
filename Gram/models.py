@@ -18,6 +18,9 @@ class profile(models.Model):
     bio = models.TextField(max_length=30, blank=True)
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     email = models.EmailField(null=True, blank=True)
+    followers = models.ManyToManyField(User, related_name="followed_by", blank=True)
+    following = models.ManyToManyField(User, related_name="follows", blank=True)
+
 
 class user(models.Model):
     username = models.CharField(max_length=50)
