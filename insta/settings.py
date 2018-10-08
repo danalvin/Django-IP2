@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'materialize',
     'Gram',
     'bootstrap4',
     'django.contrib.admin',
