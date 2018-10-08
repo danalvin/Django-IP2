@@ -20,9 +20,9 @@
             <a href='#' onclick='return false;' class='list-order' role="button"><i class="fa fa-ellipsis-h"></i></a>
     </div>
     </div>
- <div class="list">
+ <div class='left'>
     <ul>
-        <li><a href="https://goo.gl/TChSJ4" target='_blank'><img src="https://goo.gl/aVijkX" class="avatar avatar-50">uncle_oreo</a></li>
+        <li><a href="{% url 'profile' profile_id=user.id%}" target='_blank'>Profile </a>
         <li><a href='#'>Log in</a></li>
         <li><a href='#'>Sign up</a></li>
         <li><a href='#'>Report this user</a></li>
