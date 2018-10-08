@@ -4,27 +4,94 @@
 {{ block.super}}
 <div class="container-fluid">
     {% for image_item in images %}
-    <div class="row">
-    <div class="col-md-2">
+    <!--<div class="row">-->
+    <!--<div class="col-md-2">-->
 
+    <!--</div>-->
+    <!--<div class="col-md-8" width="500px">-->
+      <!--<div class="card">-->
+        <div class="navbar">
+       <a href='#'><i class="fa fa-instagram"></i><span></span></a></div>
+    <div class='lil-bar'>
+        <div class='bar-cont'>
+            <a href='#' role="button"><i class="fa fa-user-plus"></i></a>
+            <a href='#' onclick='return false;' class='list-order' role="button"><i class="fa fa-ellipsis-h"></i></a>
     </div>
-    <div class="col-md-8">
-      <div class="card">
-        <img class="img-responsive" src="{{image_item.image.url}}" alt="image" data-toggle="modal" data-target="#{{image_item.id}}" width="500px">
-        <div class="card-body">
-            <small class="card_text small-name">{{image_item.image_name}}</small>
-            <br>
-            <small class="card_text small-description">{{image_item.image_caption}}</small>
-            <br>
-            <small class="card_text small-location">{{image_item.image_name}}</small>
-            <br>
-            <small class="card_text small-date">{{image_item.post_date}}</small>
-            <br>
-            <small class="card_text small-date">{{image_item.user}}</small>
-            <br>
-            <small class="card_text small-date">{{image_item.liker}}</small>
-
+    </div>
+ <div class="list">
+    <ul>
+        <li><a href="https://goo.gl/TChSJ4" target='_blank'><img src="https://goo.gl/aVijkX" class="avatar avatar-50">uncle_oreo</a></li>
+        <li><a href='#'>Log in</a></li>
+        <li><a href='#'>Sign up</a></li>
+        <li><a href='#'>Report this user</a></li>
+        <li class='collapse'><a href='#'>Collapse the bar</a></li>
+        </ul>
+    </div>
+<section>
+  <div class= 'insta fade-scroll'>
+    <div class='top-insta'>
+      <a href='https://goo.gl/Y9YWLo' target='_blank'><img src='https://goo.gl/rN1DcT'></a>
+      <a href='https://goo.gl/Y9YWLo' target='_blank' class='user'>{{image_item.user}}
+</a>
+      <span class= 'dot'></span>
+    </div>
+    <div class='post'>
+        <div class="overlay">
+        <span></span>
         </div>
+      <img src='{{image_item.image.url}}' >
+ </div>
+    <div class='footer'>
+
+      <div class='react'>
+        <a href='#' role='button'><span class='love'></span></a>
+        <a href='#' role='button'><span class='comment'></span></a>
+        <a href='#' role='button'><span class='save'></span></a>
+
+      </div>
+
+      <div class='caption'>
+        <a href='#'>{{image_item.user}}</a><span>{{image_item.image_caption}}</span>
+      </div>
+
+      <div class='comment-section'>
+        <input type='text' id='cmnt' placeholder='Add a comment...'>
+        <span class='dot02'></span>
+      </div>
+
+    </div> <!-- end Footer -->
+
+  </div> <!-- end Insta -->
+  <div class="a1 fade-scroll"></div>
+  <div class="a1 fade-scroll"></div>
+  <div class="a1 fade-scroll"></div>
+  <div class="a1 fade-scroll"></div>
+  <div class="a1 fade-scroll"></div>
+</section> <!-- end section -->
+    <footer>
+    <div class="footer-cont">
+        <ul>
+         <li><a href='#'>About us</a></li>
+         <li><a href='#'>Support</a></li>
+         <li><a href='#'>Blog</a></li>
+         <li><a href='#'>Press</a></li>
+         <li><a href='#'>Jobs</a></li>
+         <li><a href='#'>Privacy</a></li>
+         <li><a href='#'>Terms</a></li>
+         <li><a href='#'>Directory</a></li>
+         <li><a href='#' onclick='return false;'>Language</a></li>
+        </ul>
+        </div>
+    </footer>
+            <!--<div class="card mb-3">-->
+              <!--<img  class="card-img-top" src="{{image_item.image.url}}" alt="Card image cap">-->
+                  <!--<div class="card-body">-->
+                    <!--<h5 class="card-title">{{image_item.user}}</h5>-->
+                    <!--<p class="card-text">{{image_item.image_caption}}</p>-->
+                    <!--<p class="card-text"><small class="text-muted">posted on {{image_item.post_date}}</small></p>-->
+                  <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
       </div>
     </div>
     <div class="col-md-2">
