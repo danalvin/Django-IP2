@@ -4,6 +4,8 @@
 {{ block.super}}
 <div class="container-fluid">
     {% for image_item in images %}
+
+
     <!--<div class="row">-->
     <!--<div class="col-md-2">-->
 
@@ -30,9 +32,8 @@
 <section>
   <div class= 'insta fade-scroll'>
     <div class='top-insta'>
-      <a href='https://goo.gl/Y9YWLo' target='_blank'><img src='https://goo.gl/rN1DcT'></a>
-      <a href='https://goo.gl/Y9YWLo' target='_blank' class='user'>{{image_item.user}}
-</a>
+      <a href='{% url 'profile' profile_id=user.id%}' target='_blank' class='user'>{{image_item.user}}</a>
+
       <span class= 'dot'></span>
     </div>
     <div class='post'>
