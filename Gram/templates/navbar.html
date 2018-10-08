@@ -20,9 +20,10 @@
 </style>
 
     <header>
-        <a href="#"><i class="fa fa-home"></i></a>
-        <a href="#"><i class="fa fa-search"></i></a>
-        <a href="#"><i class="fa fa-user-o"></i></a>
+        <a href="{% url 'Instagram' %}"><i class="fa fa-home"></i></a>
+        <a href="{% url 'Instagram' %}"><i class="fa fa-search"></i></a>
+        <a href="{% url 'new-image' %}"><i class="fa fa-cloud-upload"></i></a>
+        <a href="{% url 'profile' profile_id=user.id%}}"><i class="fa fa-user-o"></i></a>
     </header>
 
 </body>
