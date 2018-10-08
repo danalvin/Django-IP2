@@ -8,7 +8,7 @@ from .forms import NewImageForm
 # Create your views here.
 
 
-
+@login_required(login_url='/accounts/login/')
 def all_images(request):
     date = dt.date.today()
     images = Image.get_all()
@@ -28,7 +28,7 @@ def explore(request):
     profiles = Profile.get_profiles()
     return render(request, 'explore.html', {"date": date, "profiles": profiles})
 
-
+@login_required(login_url='/accounts/login/')
 def new_image(request):
     current_user = request.user
     if request.method == 'POST':
@@ -40,4 +40,3 @@ def new_image(request):
     else:
         form = NewImageForm()
     return render(request, 'new_image.html', {"form": form })
-
