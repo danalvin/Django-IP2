@@ -3,21 +3,29 @@
 {% block content %}
 {{ block.super}}
 
+
 <header>
 
 	<div class="container">
-    {% for profile in profiles %}
+         {% for profile in profiles %}
+         {% block styles %}
+        <link rel="stylesheet" href="{% static 'css/profile.css' %}">
+
+
+    {% endblock %}
+
+
 		<div class="profile">
 
 			<div class="profile-image">
 
-				<img src="{{profile.profile_photos}}" alt="">
+				<img src="data:image/jpeg;base64,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" alt="">
 
 			</div>
 
 			<div class="profile-user-settings">
 
-				<h1 class="profile-user-name">{{profile.user}}</h1>
+				<h1 class="profile-user-name">{{ profile.user }}</h1>
 
 				<button class="btn profile-edit-btn">Edit Profile</button>
 
@@ -28,11 +36,16 @@
 			<div class="profile-stats">
 
 				<ul>
-					<li><span class="profile-stat-count"></span> posts</li>
+					<li><span class="profile-stat-count">164</span> posts</li>
+					<li><span class="profile-stat-count">188</span> followers</li>
+					<li><span class="profile-stat-count">206</span> following</li>
+				</ul>
+
+			</div>
+
 			<div class="profile-bio">
 
-				<p><span class="profile-real-name"> <legend>Bio</legend> <br>
-                </span>{{profile.bio}}</p>
+				<p><span class="profile-real-name"></span> {{ profile.bio }}</p>
 
 			</div>
 
@@ -49,10 +62,11 @@
 	<div class="container">
 
 		<div class="gallery">
+            {% for image in images %}
 
-			<div class="gallery-item" tabindex="0">
+			<div class="gallery-item" tabindex="1">
 
-				<img src="https://images.unsplash.com/photo-1511765224389-37f0e77cf0eb?w=500&h=500&fit=crop" class="gallery-image" alt="">
+				<img width="300px" height="300px" src="{{image.image.url}}" alt="">
 
 				<div class="gallery-item-info">
 
@@ -65,6 +79,9 @@
 
 			</div>
 
+
+
+
 		</div>
 		<!-- End of gallery -->
 
@@ -74,5 +91,6 @@
 	<!-- End of container -->
 
 </main>
+{% endfor %}
 {% endfor %}
 {% endblock %}

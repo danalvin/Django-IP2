@@ -20,7 +20,8 @@ def all_images(request):
 def my_profile(request,profile_id):
     date = dt.date.today()
     profiles = Profile.objects.filter(id = profile_id)
-    return render(request, 'profile.html', locals())
+    images = Image.get_all()
+    return render(request, 'profile.html', {"date": date, "profiles": profiles, "images": images, })
 
 def explore(request):
     date = dt.date.today()

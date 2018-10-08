@@ -12,23 +12,9 @@
     <!--</div>-->
     <!--<div class="col-md-8" width="500px">-->
       <!--<div class="card">-->
-        <div class="navbar">
-       <a href='#'><i class="fa fa-instagram"></i><span></span></a></div>
-    <div class='lil-bar'>
-        <div class='bar-cont'>
-            <a href='#' role="button"><i class="fa fa-user-plus"></i></a>
-            <a href='#' onclick='return false;' class='list-order' role="button"><i class="fa fa-ellipsis-h"></i></a>
+
     </div>
-    </div>
- <div class='left'>
-    <ul>
-        <li><a href="{% url 'profile' profile_id=user.id%}" target='_blank'>Profile </a>
-        <li><a href='#'>Log in</a></li>
-        <li><a href='#'>Sign up</a></li>
-        <li><a href='#'>Report this user</a></li>
-        <li class='collapse'><a href='#'>Collapse the bar</a></li>
-        </ul>
-    </div>
+
 <section>
   <div class= 'insta fade-scroll'>
     <div class='top-insta'>
@@ -47,12 +33,11 @@
       <div class='react'>
         <a href='#' role='button'><span class='love'></span></a>
         <a href='#' role='button'><span class='comment'></span></a>
-        <a href='#' role='button'><span class='save'></span></a>
 
       </div>
 
       <div class='caption'>
-        <a href='#'>{{image_item.user}}</a><span>{{image_item.image_caption}}</span>
+        <a href='{% url 'profile' profile_id=user.id%}'>{{image_item.user}}</a><span>{{image_item.image_caption}}</span>
       </div>
 
       <div class='comment-section'>

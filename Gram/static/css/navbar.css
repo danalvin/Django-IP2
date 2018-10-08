@@ -1,0 +1,18 @@
+
+header{
+    background: #fafafa;
+}
+
+a{
+    box-sizing: border-box;
+    width: 33%;
+    display: inline-block;
+    margin-left: -3px;
+    text-align: center;
+    padding: 10px;
+}
+
+.fa{
+    color: #111;
+    font-size: 40px;
+}
