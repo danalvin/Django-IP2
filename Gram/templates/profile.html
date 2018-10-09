@@ -7,7 +7,7 @@
 <header>
 
 	<div class="container">
-         {% for profile in profiles %}
+
          {% block styles %}
         <link rel="stylesheet" href="{% static 'css/profile.css' %}">
 
@@ -25,27 +25,28 @@
 
 			<div class="profile-user-settings">
 
-				<h1 class="profile-user-name">{{ profile.user }}</h1>
+				<h1 class="profile-user-name">{{ request.user.username }}</h1>
 
 				<button class="btn profile-edit-btn">Edit Profile</button>
 
 				<button class="btn profile-settings-btn" aria-label="profile settings"><i class="fas fa-cog" aria-hidden="true"></i></button>
+								<a href="/logout/">logout</a>
 
 			</div>
 
 			<div class="profile-stats">
 
 				<ul>
-					<li><span class="profile-stat-count">164</span> posts</li>
-					<li><span class="profile-stat-count">188</span> followers</li>
-					<li><span class="profile-stat-count">206</span> following</li>
+					<li><span class="profile-stat-count">{{images|length}}</span> posts</li>
+					<li><span class="profile-stat-count">0</span> followers</li>
+					<li><span class="profile-stat-count">0</span> following</li>
 				</ul>
 
 			</div>
 
 			<div class="profile-bio">
 
-				<p><span class="profile-real-name"></span> {{ profile.bio }}</p>
+				<p><span class="profile-real-name"></span> {{ request.user.profile.bio }}</p>
 
 			</div>
 
@@ -61,10 +62,10 @@
 
 	<div class="container">
 
-		<div class="gallery">
+		<div class="gallery row">
             {% for image in images %}
 
-			<div class="gallery-item" tabindex="1">
+			<div class="gallery-item col col-md-4" tabindex="0">
 
 				<img width="300px" height="300px" src="{{image.image.url}}" alt="">
 
@@ -84,6 +85,7 @@
 
 		</div>
 		<!-- End of gallery -->
+	{% endfor %}
 
 		<div class="loader"></div>
 
@@ -91,6 +93,5 @@
 	<!-- End of container -->
 
 </main>
-{% endfor %}
-{% endfor %}
+
 {% endblock %}

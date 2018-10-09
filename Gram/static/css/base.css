@@ -487,3 +487,6 @@ section {
         transform: rotate(0deg) scale(1) translate3d(0px, 0px, 0px);
 opacity: 1;
 }
+form{
+    position:center;
+}

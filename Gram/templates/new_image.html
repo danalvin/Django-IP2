@@ -1,7 +1,28 @@
 {%extends 'base.html'%}
 {% load static %}
+{% load bootstrap4 %}
+
 {% block content %}
+<div class="container">
 {{ block.super}}
+    <div class="row">
+        <div class="col-md-4">
 
+        </div>
+        <div class="col-md-4">
+             <div class="card">
+                <form  action="{%url 'new_image'%}" method="post" enctype="multipart/form-data">
+                    {%csrf_token%}
 
+                    {% bootstrap_form form%}
+                    <input type="submit" class="btn btn-outline-danger btn-sm" value="Post">
+                </form>
+             </div>
+        </div>
+        <div class="col-md-4">
+
+        </div>
+    </div>
+
+</div>
 {% endblock %}

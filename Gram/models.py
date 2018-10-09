@@ -16,6 +16,8 @@ class Image(models.Model):
     liker = models.ForeignKey(User, related_name='liked_by', on_delete=models.CASCADE, null=True)
     post_date = models.DateTimeField(auto_now=True)
 
+    class Meta:
+        ordering = ['-post_date']
 
     def __str__(self):
         return self.image_name
@@ -28,7 +30,7 @@ class Image(models.Model):
 
 class Profile(models.Model):
     profile_photo = models.ImageField(upload_to='profile_pictures/')
-    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    user = models.OneToOneField(User,related_name='profile' ,on_delete=models.CASCADE)
     bio = models.TextField(max_length=200, blank=True)
     email = models.CharField(max_length=100, null=True, blank=True)
     status = models.CharField(max_length=100, blank=True)
