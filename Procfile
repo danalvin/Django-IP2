@@ -1,1 +1,1 @@
-web: gunicorn gramdan.wsgi
+web: gunicorn insta.wsgi
