@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/insta/settings.py" line="28" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="397e731b-b31d-4fac-95dc-c8b7a354961b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/insta/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/insta/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="397e731b-b31d-4fac-95dc-c8b7a354961b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +32,7 @@
           <entry key="html" value="30" />
           <entry key="js" value="2" />
           <entry key="md" value="2" />
-          <entry key="py" value="31" />
+          <entry key="py" value="32" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
@@ -45,18 +43,18 @@
           <entry key="JavaScript" value="2" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="31" />
+          <entry key="Python" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Procfile" value="29" />
+          <entry key="Procfile" value="34" />
           <entry key="css" value="49" />
           <entry key="env" value="117" />
           <entry key="html" value="1669" />
           <entry key="md" value="322" />
           <entry key="py" value="802" />
-          <entry key="txt" value="13" />
+          <entry key="txt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -64,7 +62,7 @@
           <entry key="CSS" value="49" />
           <entry key="HTML" value="1669" />
           <entry key="Markdown" value="322" />
-          <entry key="PLAIN_TEXT" value="159" />
+          <entry key="PLAIN_TEXT" value="168" />
           <entry key="Python" value="802" />
         </counts>
       </usages-collector>
@@ -93,7 +91,7 @@
             <entry file="file://$PROJECT_DIR$/runtime.txt">
               <provider selected="true" editor-type-id="text-editor">
                 <state>
-                  <caret column="12" selection-start-column="12" selection-end-column="12" />
+                  <caret column="7" selection-start-column="7" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
@@ -102,15 +100,20 @@
             <entry file="file://$PROJECT_DIR$/Procfile">
               <provider selected="true" editor-type-id="text-editor">
                 <state>
-                  <caret column="21" selection-start-column="21" selection-end-column="21" />
+                  <caret column="19" selection-start-column="19" selection-end-column="19" />
                 </state>
               </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/manage.py">
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/insta/settings.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-510">
+                <state relative-caret-position="-1420">
                   <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
                   <folding>
                     <element signature="e#310#319#0" expanded="true" />
@@ -127,7 +130,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/.env">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
+                <state relative-caret-position="135">
                   <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
                 </state>
               </provider>
@@ -161,19 +164,6 @@
                   <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
                   <folding>
                     <element signature="e#0#19#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Gram/models.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="480">
-                  <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
-                  <folding>
-                    <element signature="e#0#28#0" expanded="true" />
-                    <marker date="1539086578812" expanded="true" signature="640:680" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -239,10 +229,10 @@
         <option value="$PROJECT_DIR$/Gram/views.py" />
         <option value="$PROJECT_DIR$/Gram/models.py" />
         <option value="$PROJECT_DIR$/Gram/templates/profile.html" />
-        <option value="$PROJECT_DIR$/runtime.txt" />
-        <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/insta/settings.py" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/runtime.txt" />
       </list>
     </option>
   </component>
@@ -374,8 +364,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1280" height="770" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" weight="0.2140016" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.21337579" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5021097" side_tool="true" weight="0.2140016" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -386,7 +377,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3296875" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.25873017" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.25873017" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Python Console" order="11" />
@@ -622,20 +613,6 @@
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runtime.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gram/templates/profile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1005">
@@ -646,16 +623,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="135">
           <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/insta/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510">
+        <state relative-caret-position="-1420">
           <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
           <folding>
             <element signature="e#310#319#0" expanded="true" />
